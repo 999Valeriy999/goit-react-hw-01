@@ -7,7 +7,7 @@
     width: 200px;
     border: 2px solid #000;
     border-radius: 5px;
-    
+
 }
 
 .avatar {
@@ -27,7 +27,7 @@
 
 .isOnline {
     composes: status;
-    color: #0cc509;      
+    color: #0cc509;
 }
 
 .isOffline {
