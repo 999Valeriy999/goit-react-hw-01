@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import css from './Friend.module.css';
+import css from './FriendListItem.module.css';
 
 export default function Friend({ user: { name, isOnline, avatar } }) {
   const statusClass = isOnline ? css.isOnline : css.isOffline;
