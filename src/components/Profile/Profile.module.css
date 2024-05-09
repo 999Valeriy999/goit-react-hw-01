@@ -1,5 +1,5 @@
 .profile {
-    
+
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -32,20 +32,21 @@
 .location {
     composes: tag;
 }
+
 .stats {
     display: block;
     max-width: 1050px;
     column-count: 3;
-    column-gap: 20px;    
-    column-rule: 5px solid #959595;    
-    border-top: 5px solid #959595;    
+    column-gap: 20px;
+    column-rule: 5px solid #959595;
+    border-top: 5px solid #959595;
     background-color: #d3d3d3;
     font-size: 48px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
-.statsItem{
+.statsItem {
     display: flex;
     flex-direction: column;
     align-items: center;
